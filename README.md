@@ -1,4 +1,4 @@
-![Game Cover](/Cover.jpg)
+![Game Cover](/images/Cover.jpg)
 # Play Rabbids Go Home on Linux
 This is a guide that makes it easier to install the Windows version of Rabbids Go Home on Linux lol. 
 # Reqirements
