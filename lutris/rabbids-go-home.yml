@@ -5,14 +5,12 @@ runner: wine
 
 script:
   game:
-  exe: $GAMEDIR/drive_c/Program files(x86)/Ubisoft/Rabbids Go Home - DVD/Launcher.exe
+  exe: $GAMEDIR/drive_c/Program Files (x86)/Ubisoft/Rabbids Go Home - DVD/Launcher.exe
   prefix: $GAMEDIR
 installer:
 - task:
     arch: win64
     description: Creating WINE prefix...
-    install_gecko: false
-    install_mono: false
     name: create_prefix
     prefix: $GAMEDIR
 - task:
